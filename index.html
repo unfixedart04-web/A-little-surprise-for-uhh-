@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17132c">
+  <title>Happy Birthday Sania ✦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="starfield" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <section class="landing" id="home">
+      <div class="topline"><span>✦ A LITTLE BIRTHDAY PROJECT ✦</span></div>
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="tiny-star star-a">✧</div><div class="tiny-star star-b">✦</div>
+      <p class="overline">TODAY IS YOUR DAY</p>
+      <h1>Happy Birthday,<br><em>Sania.</em></h1>
+      <p class="landing-copy">A little page, a little music, and lots of wishes for you.</p>
+      <button class="open-button" id="openButton">Open your birthday surprise <span>↗</span></button>
+      <div class="landing-bottom"><span>27 NOVEMBER 2026</span><span>MADE JUST FOR YOU ♡</span></div>
+    </section>
+
+    <section class="intro section" id="wish">
+      <div class="section-tag">01 / THE WISH</div>
+      <div class="intro-inner">
+        <div class="big-star">✳</div>
+        <p class="kicker">TO OUR BIRTHDAY STAR</p>
+        <h2>Another year.<br><em>More reasons to shine.</em></h2>
+        <p class="wish-copy">Happy Birthday, Sania! I hope your day is filled with laughter, kind surprises, good memories, and the people who make you feel appreciated. May this new chapter bring you confidence, happiness, and beautiful opportunities. Keep being your lovely, one-of-a-kind self.</p>
+        <div class="signature">Have the best birthday! <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="gallery-section section" id="memories">
+      <div class="section-tag">02 / PHOTO MOMENTS</div>
+      <div class="section-heading">
+        <p class="kicker">A FEW FRAMES OF YOU</p>
+        <h2>Little <em>memories.</em></h2>
+      </div>
+      <div class="photo-grid">
+        <figure class="polaroid first">
+          <div class="photo-wrap"><img src="images/sania-photo-1.jpg" alt="Sania in a purple outfit"></div>
+          <figcaption>the kind of moment you remember ✦</figcaption>
+        </figure>
+        <figure class="polaroid second">
+          <div class="photo-wrap"><img src="images/sania-photo-2.jpg" alt="Sania smiling for a selfie"></div>
+          <figcaption>keep that lovely smile ♡</figcaption>
+        </figure>
+      </div>
+      <p class="gallery-note">Two photos, one special day, and a whole lot of good wishes.</p>
+    </section>
+
+    <section class="music-section section">
+      <div class="section-tag">03 / A LITTLE SOUNDTRACK</div>
+      <div class="music-card">
+        <div class="vinyl"><div class="vinyl-center">S</div></div>
+        <div class="music-info">
+          <p class="kicker">PRESS PLAY</p>
+          <h2>Still With You</h2>
+          <p>Piano cover · Jungkook</p>
+          <button class="play-button" id="playButton"><span id="playIcon">▶</span> <span id="playText">Play birthday soundtrack</span></button>
+          <audio id="birthdayAudio" src="music/still-with-you-piano.mp3" preload="metadata" loop></audio>
+          <p class="music-hint" id="musicHint">Tap play to start the music.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-section section">
+      <div class="section-tag">04 / BEFORE YOU GO</div>
+      <div class="final-content">
+        <div class="constellation">✦　·　✧　·　✦</div>
+        <p class="kicker">ONE LAST WISH</p>
+        <h2>May your next chapter<br>be <em>your favourite one.</em></h2>
+        <button class="wish-button" id="wishButton">Make a wish ✧</button>
+        <p class="final-message" id="finalMessage" aria-live="polite"></p>
+      </div>
+      <footer>Made with friendship & good wishes <span>♡</span></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
